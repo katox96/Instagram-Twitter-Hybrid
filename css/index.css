@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+:focus { outline: none; }
+
+#main {
+    text-align: center;
+}
+
+#dnld_app {
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+
+#dnld_app:hover {
+    background: white;
+    color: black;
+}
+
+#page-loader {
+    position: fixed;
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+#page-loader img {
+    margin-top: 70%;
+}
+
+.logo_div , .login_div {
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.logo_di img {
+    display: inline-block;
+}
+
+.login_btn {
+    border: none;
+    padding: 15px;
+    border-radius: 90px;
+    font-size: 15px;
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+
+.login_btn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
